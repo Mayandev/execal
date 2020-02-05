@@ -1,0 +1,18 @@
+<!--pages/more/more.wxml-->
+
+<view class='programs'>
+<official-account></official-account>
+
+    <view wx:for="{{programs}}">
+        <navigator class="card" target="miniProgram" open-type="navigate" path="{{item.path}}" app-id="{{item.appId}}">
+            <view class='cart-content'>
+                <image  mode="cover" class='program-avatar' src='{{item.avatarUrl}}'></image>
+                <view class='program-info'>        
+                    <view class="title">{{item.title}}</view>
+                    <view class="description">{{item.description}}</view>
+                </view>
+            </view>    
+        </navigator>
+    </view> 
+    <ad unit-id="adunit-8e52ab219281406b" ad-type="video" ad-theme="white"></ad>
+</view>

@@ -1,0 +1,96 @@
+@import "../common/lib/weui.wxss";
+
+.picker{
+  padding: 19rpx 26rpx;
+  background-color: #FFFFFF;
+}
+
+.circle_hide{  
+ display: none;  
+}  
+.circle_show{  
+ display: block;  
+}  
+
+.BMIcanvas {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.about {
+    margin: 30rpx auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+.share {
+    width: 30px;
+    height: 30px;
+    background-size:30px,30px;
+  background-repeat:no-repeat;
+  border: none;
+  margin: auto;
+}
+
+
+.onimg{
+    text-align: center;
+
+}
+
+.onimg_title {
+    color: #8a8a8a;
+    font-size: 14px;
+}
+/*伪元素实现*/
+
+.onimg_title:before{
+
+    display: inline-block;
+
+    position: relative;
+
+    top:-7px;
+
+    right: 20px;
+
+    content: "";
+
+    width: 50px;
+
+    height: 0px;
+
+    border: 0.1px solid #8a8a8a;
+
+}
+
+.onimg_title:after{
+
+    display: inline-block;
+
+    position: relative;
+
+    top:-7px;
+
+    left: 20px;
+
+    content: "";
+
+    width: 50px;
+
+    color: #8a8a8a;
+
+    height: 0px;
+
+    border: 0.1px solid #8a8a8a;
+
+}
+

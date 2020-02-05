@@ -1,0 +1,37 @@
+/* pages/more/more.wxss */
+.programs {
+    margin: 40rpx;
+}
+.card {
+    border: 2px solid #ffffff;
+    border-radius: 3px;
+    background-color: #ffffff;
+    position: relative;
+    margin: 30rpx 0px;
+}
+
+.title {
+    font-size: 16px;
+}
+
+.description {
+    font-size: 14px;
+    color: #8a8a8a;
+}
+
+.program-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx 60rpx;
+  border-radius: 50%;
+}
+
+.program-info {
+    position: absolute;
+    float: right;
+    margin: 20rpx 50rpx;
+    left: 180rpx;
+    top: 25rpx;
+}
+
+

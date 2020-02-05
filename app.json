@@ -1,0 +1,40 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/more/more"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#3667ec",
+        "navigationBarTitleText": "体测计算器",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "color": "#8a8a8a",
+        "selectedColor": "#3667ec",
+        "borderStyle": "white",
+        "position": "bottom",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "计算",
+                "iconPath": "images/cal.png",
+                "selectedIconPath": "images/cal_pressed.png"
+            },
+            {
+                "pagePath": "pages/more/more",
+                "text": "发现",
+                "iconPath": "images/find.png",
+                "selectedIconPath": "images/find_pressed.png"
+            }
+        ]
+    },
+    "navigateToMiniProgramAppIdList": [
+      "wx97cf6ae4c7902b8f",
+      "wxfbe916702aa06f6a",
+      "wx65a01e725853c0b2",
+      "wx12bec5493a7e8480",
+      "wx99f974799c46e3af",
+      "wx18a2ac992306a5a4"
+    ]
+}
